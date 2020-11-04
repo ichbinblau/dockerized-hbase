@@ -1,5 +1,5 @@
-ARG VERSION=2.0.1
-FROM gradiant/hbase-base:$VERSION
+ARG VERSION=1.4.13
+FROM xshan1/hbase-base:$VERSION
 
 LABEL maintainer="cgiraldo@gradiant.org"
 LABEL organization="gradiant.org"
